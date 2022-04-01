@@ -15,6 +15,7 @@ const Header = () => {
                     <a href="">Manage Inventory</a>
                     <a href="">About us</a>
                 </nav>
+                <h1>amaro porane jaha chay tumi tai tumi taigo amaro porane jaha cahy toma jhora aj a mone mor keho nai keho naigo amaro porane jaha chay</h1>
             </div>
         </div>
     );
