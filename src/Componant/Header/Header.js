@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css'
 import logo from '../../images/Logo.svg'
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
@@ -10,12 +11,11 @@ const Header = () => {
             </div>
             <div>
                 <nav >
-                    <a href="">Order</a>
-                    <a href="">Order Review</a>
-                    <a href="">Manage Inventory</a>
-                    <a href="">About us</a>
+                    <CustomLink to="/">Shop</CustomLink>
+                    <CustomLink to="/review">Orders</CustomLink>
+                    <CustomLink to="/inventory">Inventory</CustomLink>
+                    <CustomLink to="/about">About us</CustomLink>
                 </nav>
-                <h1>amaro porane jaha chay tumi tai tumi taigo amaro porane jaha cahy toma jhora aj a mone mor keho nai keho naigo amaro porane jaha chay</h1>
             </div>
         </div>
     );

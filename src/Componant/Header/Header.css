@@ -1,17 +1,18 @@
 .header {
- display: flex;
- 
-background-color: black;
-justify-content: space-between;
-align-items: center;
-padding: 15px 140px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 140px;
 
 }
-.header a{
+
+.header a {
     text-decoration: none;
     margin: 0px 20px;
-color: white;
+    color: white;
 }
-.header a:hover{
-    color:orange;
+
+.header a:hover {
+    color: orange;
 }

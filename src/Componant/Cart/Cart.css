@@ -1,5 +1,14 @@
-.order-summery{
-   position: sticky;
-   top: 0px;
-    padding:5px 50px;
+.order-summery {
+    position: sticky;
+    top: 0px;
+    padding: 5px 50px;
+}
+
+.children-btn {
+    background-color: red;
+    color: white;
+    font-size: medium;
+    padding: 5px;
+    font-weight: 500;
+    border: 0;
 }

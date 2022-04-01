@@ -1,0 +1,55 @@
+.review {
+    Width: 771px;
+    Height: 107px;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.review img {
+    width: 91px;
+    height: 91px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.review-details {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10px;
+
+
+}
+
+.review-details h3 {
+    margin: 0px;
+}
+
+.review-details p {
+    margin: 0;
+}
+
+.delate-container {
+    padding-right: 20px;
+}
+
+.delate-btn {
+    background: rgba(235, 87, 87, 0.3);
+    border: 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+
+
+}
+
+.delate-icon {
+    color: red;
+    font-size: 27px;
+
+}
