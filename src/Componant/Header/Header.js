@@ -9,12 +9,13 @@ const Header = () => {
             <div>
                 <img src={logo} alt="" />
             </div>
-            <div>
+            <div className='navbar'>
                 <nav >
-                    <CustomLink to="/">Shop</CustomLink>
-                    <CustomLink to="/review">Orders</CustomLink>
-                    <CustomLink to="/inventory">Inventory</CustomLink>
-                    <CustomLink to="/about">About us</CustomLink>
+                    <CustomLink to="/">SHOP</CustomLink>
+                    <CustomLink to="/review">ORDERS</CustomLink>
+                    <CustomLink to="/inventory">INVENTORY</CustomLink>
+                    <CustomLink to="/about">ABOUT US</CustomLink>
+                    <CustomLink to="/login">LOG IN</CustomLink>
                 </nav>
             </div>
         </div>

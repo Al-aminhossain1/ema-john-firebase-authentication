@@ -13,6 +13,10 @@
     color: white;
 }
 
+.navbar nav {
+    display: flex;
+}
+
 .header a:hover {
     color: orange;
 }

@@ -7,6 +7,7 @@ import OrderReview from './Componant/OrderReview/OrderReview';
 import Shop from './Componant/Shop/Shop';
 import About from './Componant/About/About';
 import NotFound from './Componant/NotFound/NotFound'
+import LogIn from './Componant/LogIn/LogIn';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/review' element={<OrderReview></OrderReview>}></Route>
         <Route path='/inventory' element={<Inventory></Inventory>}></Route>
         <Route path='/about' element={<About></About>} ></Route>
+        <Route path='/login' element={<LogIn></LogIn>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
